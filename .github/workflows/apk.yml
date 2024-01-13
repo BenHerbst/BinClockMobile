@@ -13,6 +13,11 @@ jobs:
 
     steps:
       - uses: actions/checkout@v1
+      - name: Decode Keystore
+        uses: timheuer/base64-to-file@v1
+        with:
+          fileName: 'keystore/keystore.jks'
+          encodedString: ${{ secrets.KEYSTORE }}
       - uses: actions/setup-java@v1
         with:
           java-version: '12.x'
