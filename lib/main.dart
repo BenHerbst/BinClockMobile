@@ -16,6 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'BinClock',
       theme: ThemeData(
+
         colorScheme: ColorScheme.fromSeed(
           seedColor: Color(0xFF57c5ab),
           primary: Color(0xFF57c5ab),
