@@ -12,7 +12,7 @@ This mobile app is build cross platform using Flutter
 
 ## Web Version 🌎
 
-There is a Nuxt web version available at https://wwww.benherbst.net/
+There is a Nuxt web version available at https://clock.benherbst.net/
 
 ## Desktop Version 💻
 
