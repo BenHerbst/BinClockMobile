@@ -18,6 +18,7 @@ jobs:
         with:
           fileName: 'keystore/keystore.jks'
           encodedString: ${{ secrets.KEYSTORE }}
+          fileDir: '/home/runner/work/BinClockMobile/BinClockMobile/android/app/'
       - uses: actions/setup-java@v1
         with:
           java-version: '12.x'
