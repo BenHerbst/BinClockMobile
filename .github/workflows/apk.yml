@@ -3,6 +3,8 @@ name: Build APK
 on:
   push:
     branches: [ "master" ]
+    tags:
+      - '*'
   workflow_dispatch:
 
 jobs:
