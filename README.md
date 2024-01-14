@@ -13,6 +13,7 @@ A simple and easy to use binary clock, with a UI of the 21th century. Never use 
 ## Getting Started
 
 Download in play store at [link]
+You can download the APK at https://github.com/BenHerbst/BinClockMobile/releases/tag/1.1.0
 
 ## Stack 🍔
 
