@@ -67,9 +67,9 @@ class _MyHomePageState extends State<MyHomePage> {
           ),
           // Callback that sets the selected popup menu item.
           onSelected: (String item) {
-            if(item == 'web' || item == 'desktop' || item == 'gh') {
+            if(item == 'web' || item == 'desktop' || item == 'gh' || item == 'pp') {
               // Open in browser
-              final Uri url = Uri.parse(item == 'web' ? 'https://clock.benherbst.net/' : item == 'gh' ? 'https://github.com/BenHerbst/BinClockMobile' : 'https://github.com/AmirAli-AZ/BinaryClock');
+              final Uri url = Uri.parse(item == 'web' ? 'https://clock.benherbst.net/' : item == 'gh' ? 'https://github.com/BenHerbst/BinClockMobile' : item == 'pp' ? 'https://www.paypal.com/donate/?hosted_button_id=C5X9LBEM7XZ64' : 'https://github.com/AmirAli-AZ/BinaryClock');
               launchUrl(url);
             }
           },
@@ -85,6 +85,10 @@ class _MyHomePageState extends State<MyHomePage> {
             const PopupMenuItem(
               value: "gh",
               child: Text('GitHub'),
+            ),
+            const PopupMenuItem(
+              value: "pp",
+              child: Text('Donate'),
             ),
           ],
         ),
